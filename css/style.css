@@ -35,9 +35,9 @@ p {
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 10px; /* Specifikujte hodnotu podle vašich preferencí */
-  border-radius: 10px; /* Zaoblení rohů tabulky */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;    
 }
 
 table, th, td {
