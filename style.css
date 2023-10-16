@@ -104,3 +104,8 @@ th, td:hover {
 .contact a:hover {
     text-decoration: underline;
 }
+
+.table-radius:hover td {
+    background-color: #ff6347;
+    transition: background-color 0.3s ease;
+}
