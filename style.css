@@ -35,9 +35,9 @@ p {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px; /* Zaoblení okrajů tabulky. */
 }
 
 table, th, td {
@@ -45,8 +45,9 @@ table, th, td {
 }
 
 th, td {
-    padding: 10px;
-    text-align: left;
+  padding: 8px 12px;
+  border: 1px solid #ccc; /* Okraje buňky tabulky. */
+  border-radius: 0; /* Bez zaoblení okrajů buňek. */
 }
 
 th {
