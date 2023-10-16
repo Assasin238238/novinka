@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <title>Plán IT projektu</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Přidáme trvalou animaci pro nadpis h1 */
+        h1 {
+            transform: translateX(-100%); /* Počáteční pozice nadpisu je mimo obrazovku zleva */
+            animation: slide-in 2s ease forwards; /* Animace "slide-in" trvá 2 sekundy, používá easing a zůstává na koncové pozici */
+        }
+
+        @keyframes slide-in {
+            to {
+                transform: translateX(0); /* Konečná pozice nadpisu (přesune se zleva do původní pozice) */
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
