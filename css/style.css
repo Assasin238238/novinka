@@ -59,7 +59,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: #404040;
+    background-color: white;
 }
 
 .content {
